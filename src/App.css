@@ -1,0 +1,111 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+  background: linear-gradient(135deg,#1f2937,#4f46e5);
+  min-height:100vh;
+  display:flex;
+  justify-content:center;
+  align-items:flex-start;
+  padding-top:40px;
+  color:#1f2937;
+}
+
+.container{
+  width:900px;
+  background:rgba(255,255,255,0.95);
+  border-radius:12px;
+  padding:30px;
+  box-shadow:0 15px 35px rgba(0,0,0,0.2);
+}
+
+h1{
+  text-align:center;
+  margin-bottom:25px;
+  color:#1e293b;
+}
+
+h2{
+  margin-top:25px;
+  margin-bottom:10px;
+  color:#374151;
+}
+
+button{
+  padding:10px 16px;
+  border:none;
+  border-radius:6px;
+  background:#4f46e5;
+  color:white;
+  font-weight:500;
+  cursor:pointer;
+  transition:all 0.2s ease;
+}
+
+button:hover{
+  background:#4338ca;
+  transform:translateY(-1px);
+}
+
+.remove-btn{
+  background:#ef4444;
+}
+
+.remove-btn:hover{
+  background:#dc2626;
+}
+
+input{
+  padding:10px;
+  border-radius:6px;
+  border:1px solid #d1d5db;
+  width:220px;
+  margin-left:10px;
+  outline:none;
+}
+
+input:focus{
+  border-color:#4f46e5;
+  box-shadow:0 0 0 2px rgba(79,70,229,0.2);
+}
+
+.card{
+  background:white;
+  padding:18px;
+  border-radius:10px;
+  margin-top:15px;
+  border:1px solid #e5e7eb;
+  transition:all 0.25s ease;
+}
+
+.card:hover{
+  transform:translateY(-3px);
+  box-shadow:0 8px 18px rgba(0,0,0,0.15);
+}
+
+.card p{
+  margin:5px 0;
+}
+
+.courses{
+  margin-top:8px;
+}
+
+.course-tag{
+  display:inline-block;
+  background:#eef2ff;
+  color:#4338ca;
+  padding:5px 10px;
+  margin:3px;
+  border-radius:20px;
+  font-size:13px;
+  font-weight:500;
+}
+
+.course-tag:hover{
+  background:#c7d2fe;
+}
